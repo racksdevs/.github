@@ -1,0 +1,23 @@
+name: ✨ Feature Request
+description: Suggest features, discuss new ideas!
+title: "[FEATURE] <description>"
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Describe the enhancement you would like to see.
+    validations:
+      required: true
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots
+      description: Please add screenshots if applicable
+    validations:
+      required: false
+  - type: markdown
+    attributes:
+      value: |
+        You can also join our [Discord community](http://discord.gg/NXYbv4dnYQ)
