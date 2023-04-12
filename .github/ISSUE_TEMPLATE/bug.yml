@@ -9,7 +9,7 @@ body:
       description: Describe the issue you have encountered.
     validations:
       required: true
-    - type: textarea
+  - type: textarea
     id: reproduce
     attributes:
       label: How to reproduce?
