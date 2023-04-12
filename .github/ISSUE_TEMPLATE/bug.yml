@@ -1,0 +1,29 @@
+name: ⚠️ Bug
+description: Report an issue with the project.
+labels: ["bug"]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Describe your question or issue.
+    validations:
+      required: true
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots
+      description: Please add screenshots.
+    validations:
+      required: false
+  - type: textarea
+    id: extrainfo
+    attributes:
+      label: Additional information
+      description: Is there anything else we should know?
+    validations:
+      required: false
+  - type: markdown
+    attributes:
+      value: |
+        You can also join our [Discord community](http://discord.gg/NXYbv4dnYQ)
