@@ -1,33 +1,33 @@
-name: ⚠️ Bug
-description: Report an issue with the project.
+name: Report an issue.
+description: Submit a report regarding any problems or issues with the project.
 labels: ["bug"]
 body:
   - type: textarea
-    id: description
+    id: current
     attributes:
-      label: Description
-      description: Describe the issue you have encountered.
+      label: What is the current behavior?
+      description: Could you explain how the issue is currently behaving?
     validations:
       required: true
   - type: textarea
-    id: reproduce
+    id: expected
     attributes:
-      label: How to reproduce?
-      description: How to reproduce the issue?
+      label: What is the expected behavior?
+      description: Could you explain how the issue should behave?
     validations:
       required: true
   - type: textarea
     id: screenshots
     attributes:
-      label: Screenshots
-      description: Please add screenshots.
+      label: Could you share screenshots?
+      description: Are there any relevant screenshots or videos that you can provide?
     validations:
       required: false
   - type: textarea
-    id: extrainfo
+    id: extra-info
     attributes:
-      label: Additional information
-      description: Is there anything else we should know?
+      label: Could you provide additional information?
+      description: Is there any additional information that might be relevant to the issue?
     validations:
       required: false
   - type: markdown
