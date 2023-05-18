@@ -2,12 +2,11 @@ name: ⚒️ Report Issues
 description: Submit a report regarding any problems or issues with the repository.
 labels: ["bug"]
 body:
- 
- - type: textarea
+  - type: textarea
     id: description
     attributes:
       label: Description
-      description: Provide detailed description of the issue, including what went wrong, steps to reproduce the problem, and any relevant error messages or logs.
+      description: Provide a detailed description of the issue, including what went wrong, steps to reproduce the problem, and any relevant error messages or logs.
     validations:
       required: true
   
@@ -19,7 +18,7 @@ body:
     validations:
       required: true
       
-   - type: textarea
+  - type: textarea
     id: actual
     attributes:
       label: Actual Behavior
@@ -35,7 +34,7 @@ body:
     validations:
       required: false
 
-    - type: textarea
+  - type: textarea
     id: steps
     attributes:
       label: Steps to Reproduce
@@ -43,15 +42,14 @@ body:
     validations:
       required: false
       
-   - type: textarea
+  - type: textarea
     id: solution
     attributes:
       label: Possible Solutions
-      description:  Suggest potential solutions or workarounds, if you have any.
+      description: Suggest potential solutions or workarounds, if you have any.
     validations:
       required: false
       
-  
   - type: markdown
     attributes:
       value: |
