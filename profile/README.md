@@ -1,4 +1,4 @@
-## Welcome to Let's Make Coding Fun!
+## Welcome to The Coding Empire!
 
 Our community is committed to making coding an enjoyable experience, while also enabling collaboration with others. We take pride in being a warm and inclusive community that welcomes everyone.
 
